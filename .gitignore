@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Datasets / volumes (large, regenerate from upstream Lung_Nodule_System)
+data/volumes/
+data/*.npy
+data/*.h5
+data/*.hdf5
+
+# Models / checkpoints
+models/*.pt
+models/*.pth
+models/*.ckpt
+checkpoints/
+
+# Training outputs
+runs/
+output/
+logs/
+wandb/
+
+# Notebooks (keep .ipynb separately if curated)
+*.ipynb_checkpoints/
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Raw DICOM (if re-downloaded)
+DICOM/
+DICOM_*/
+*.dcm
